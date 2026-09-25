@@ -1,0 +1,26 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{lmodern,microtype}
+\usepackage[a4paper,margin=2.25cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb,booktabs,longtable,array,graphicx,xcolor}
+\usepackage{caption,float,placeins,fancyhdr,enumitem}
+\usepackage{hyperref}
+\definecolor{azul}{HTML}{20566F}
+\hypersetup{hypertexnames=false,colorlinks=true,linkcolor=azul,urlcolor=azul,citecolor=azul,pdfauthor={Pablo Sánchez González},pdftitle={La composición del gasto público antes y después de la pandemia}}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{3pt}
+\setlength{\emergencystretch}{2em}
+\linespread{1.05}
+\captionsetup{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\footnotesize Composición institucional del gasto público}
+\fancyhead[R]{\footnotesize UE-27, 2015--2024}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\nota}[1]{\par\vspace{2pt}{\footnotesize\noindent #1\par}}
+\newcommand{\autor}{Pablo Sánchez González}
+\newcommand{\afiliacion}{Universidad Complutense de Madrid \textperiodcentered{} Economía Pública}
+\makeatletter\let\tableinput\@@input\makeatother
+\addto\captionsspanish{\renewcommand{\refname}{Fuentes de datos y documentación}}
+\input{cifras.tex}
