@@ -39,7 +39,7 @@ Los archivos intermedios se crean automáticamente en `.resultados/`. No son ent
 
 ## Datos y alcance
 
-Fuente: [Eurostat, gov_10a_exp](https://doi.org/10.2908/GOV_10A_EXP), gasto total y todas las funciones COFOG. Instantánea actualizada el 16-09-2026; se desconoce la fecha exacta de descarga original. SHA-256: `8f8b6bcc2bf7d52d7181b163293347d15ecd7a7d7b1aad9b361dd7cb622022b2`.
+Fuente: [Eurostat, gov_10a_exp](https://doi.org/10.2908/GOV_10A_EXP), gasto total y todas las funciones COFOG. Instantánea actualizada el 16-09-2026.
 
 La documentación institucional y las reglas de tratamiento están en el cuaderno metodológico y en las fuentes de los PDF. Se conservan exclusivamente referencias a los datos y a su documentación técnica.
 
